@@ -1,0 +1,88 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+.tim{
+    width: 25   0px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.levi-tim{
+    display: flex;
+}
+.desni-tim{
+    display: flex;
+}
+.slika-Tima{
+    width: 60px;
+    height: 60px;
+}
+.naziv-Tima{
+    padding-top:20px;
+    padding-left: 20px;
+    text-align:left;
+    text-decoration:none;
+    font-size:20px;
+    color: black;
+}
+.konferencija{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.up-konf{
+    flex: 1;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.naziv-konferencije{
+    text-transform: uppercase;
+}
+.down-konf{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.liga{
+    height:100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.header-liga{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    background-color: darkslategrey;
+    padding-left: 15px;
+}
+.body-liga{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+    background-color: lightgray;
+}
+.konferencije{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-right: 50px;
+}
+.slika-lige{
+    width: 30px;
+    height: 50px;
+}
+.naziv-lige{
+    text-decoration: none;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 200%;
+    color:white;
+}
+.footer-liga{
+    background-color: darkslategrey;
+    height: 30px;
+}
